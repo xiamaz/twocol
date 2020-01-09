@@ -1,0 +1,59 @@
+h1, h2, h3, h4, h5, p {
+  margin-left: 0.3cm;
+  margin-right: 0.3cm;
+}
+
+h1 {
+  margin-bottom: 0.2cm;
+}
+
+.blog-post-container {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-post {
+  width: 800px;
+  display: grid;
+  grid-template-columns: 66% 34%;
+}
+
+.ldeco {
+  grid-row: 1/4;
+  grid-column: 1/2;
+  background-color: #fff0f0;
+}
+
+.rdeco {
+  grid-row: 1/4;
+  grid-column: 2/3;
+  background-color: #ffb0b0;
+}
+
+.twocol {
+  display: grid;
+  width: 800px;
+  grid-template-columns: 66% 34%;
+  background-color: #ffc0c0;
+  flex-direction: row;
+}
+
+.blog-post-title {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.blog-post-content {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.twocol .lcol {
+  background-color: #fff0f0;
+  grid-column: 1;
+}
+
+.twocol .rcol {
+  background-color: #ffb0b0;
+  grid-column: 2;
+}

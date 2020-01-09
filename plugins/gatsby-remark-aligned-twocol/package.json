@@ -1,0 +1,13 @@
+{
+  "name": "gatsby-remark-aligned-twocol",
+  "version": "0.0.1",
+  "description": "Transforms custom markdown fields into a two column format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
